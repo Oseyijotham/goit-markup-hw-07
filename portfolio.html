@@ -13,7 +13,7 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="sass/main.min.css">
     <title>Main</title>
 
 
@@ -22,27 +22,27 @@
 
 <body>
     <header class="header">
-        <div class="container header-container">
+        <div class="container header__container">
             <a href="/index.html" class="logo">WebStudio</a>
             <nav>
-                <ul class="nav-list">
+                <ul class="nav__list">
     
-                    <li class="nav-item"><a href="index.html" class="nav-item-link ">Studio</a>
+                    <li class="nav__item"><a href="index.html" class="nav__link ">Studio</a>
                     </li>
-                    <li class="nav-item"><a href="portfolio.html" class="nav-item-link nav-item-link-current">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">Contacts</a></li>
+                    <li class="nav__item"><a href="portfolio.html" class="nav__link nav__link-current">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
                 </ul>
             </nav>
     
             <ul class="contacts-list">
             
-                <li class="contacts-item"><a href="mailto:example@gmail.ru" class="list-item">
-                        <svg width="16" height="12" class="header-icon">
+                <li class="contacts-list__item"><a href="mailto:example@gmail.ru" class="contacts-list__link">
+                        <svg width="16" height="12" class="contacts-list__icon">
                             <use href="./images/icons.svg#icon-mail"></use>
                         </svg>
                         info@devstudio.com</a></li>
-                <li class="contacts-item"><a href="tel:+380961111111" class="list-item">
-                        <svg width="10" height="16" class="header-icon">
+                <li class="contacts-list__item"><a href="tel:+380961111111" class="contacts-list__link">
+                        <svg width="10" height="16" class="contacts-list__icon">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a></li>
@@ -52,169 +52,189 @@
         </div>
     </header>
     <main>
-        <section class="portfolio-main">
-            <div class="container portfolio-container">
-             <ul class="portfolio-nav-list">
-                <li class="portfolio-list-item"><button href="all.html" class="portfolio-link-item">All</a></li>
-                <li class="portfolio-list-item"><button href="web-sites.html" class="portfolio-link-item">Web-sites</a></li>
-                <li class="portfolio-list-item"><button href="apps.html" class="portfolio-link-item">Apps</a></li>
-                <li class="portfolio-list-item"><button href="design.html" class="portfolio-link-item">Design</a></li>
-                <li class="portfolio-list-item"><button href="marketing.html" class="portfolio-link-item">Marketing</a></li>
+        <section class="portfolio">
+            <div class="container portfolio__container">
+             <ul class="portfolio__list">
+                <li class="portfolio__item"><button href="all.html" class="portfolio__link">All</a></li>
+                <li class="portfolio__item"><button href="web-sites.html" class="portfolio__link">Web-sites</a></li>
+                <li class="portfolio__item"><button href="apps.html" class="portfolio__link">Apps</a></li>
+                <li class="portfolio__item"><button href="design.html" class="portfolio__link">Design</a></li>
+                <li class="portfolio__item"><button href="marketing.html" class="portfolio__link">Marketing</a></li>
              </ul>
 
-          <ul class="portfolio-pictures-list">
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+          <ul class="portfolio__pic-list">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic1.jpg" width="370" alt="Technoduck">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage
                 and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Technoduck</h3>
-            <p class="portfolio-pic-text">Web-site</p>
+            <h3 class="portfolio__pic-title">Technoduck</h3>
+            <p class="portfolio__pic-text">Web-site</p>
             </li>
             
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic2.jpg" width="370" alt="Poster New Orlean vs Golden Star">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Poster New Orlean vs Golden Star</h3>
-            <p class="portfolio-pic-text">Design</p>
+            <h3 class="portfolio__pic-title">Poster New Orlean vs Golden Star</h3>
+            <p class="portfolio__pic-text">Design</p>
             </li>
             
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic3.jpg" width="370" alt="Seafood Restaurant">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Seafood Restaurant</h3>
-            <p class="portfolio-pic-text">Apps</p>
+            <h3 class="portfolio__pic-title">Seafood Restaurant</h3>
+            <p class="portfolio__pic-text">Apps</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic4.jpg" width="370" alt="Project Prime">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Project Prime</h3>
-            <p class="portfolio-pic-text">Marketing</p>
+            <h3 class="portfolio__pic-title">Project Prime</h3>
+            <p class="portfolio__pic-text">Marketing</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic5.jpg" width="370" alt="Project Boxes">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Project Boxes</h3>
-            <p class="portfolio-pic-text">Apps</p>
+            <h3 class="portfolio__pic-title">Project Boxes</h3>
+            <p class="portfolio__pic-text">Apps</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic6.jpg" width="370" alt="Inspiration has no Borders">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Inspiration has no Borders </h3>
-            <p class="portfolio-pic-text">Website</p>
+            <h3 class="portfolio__pic-title">Inspiration has no Borders </h3>
+            <p class="portfolio__pic-text">Website</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic7.jpg" width="370" alt="Limited Edition">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Limited Edition</h3>
-            <p class="portfolio-pic-text">Design</p>
+            <h3 class="portfolio__pic-title">Limited Edition</h3>
+            <p class="portfolio__pic-text">Design</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic8.jpg" width="370" alt="Project LAB">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Project LAB</h3>
-            <p class="portfolio-pic-text">Marketing</p>
+            <h3 class="portfolio__pic-title">Project LAB</h3>
+            <p class="portfolio__pic-text">Marketing</p>
             </li>
 
-            <li class="portfolio-pic-item">
-                <div class="card-overlay">
+            <li class="portfolio__pic-item">
+                <div class="portfolio__card-overlay">
                 <img src="images/pic9.jpg" width="370" alt="Growing Business">
-                <p class="overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+                <p class="portfolio__overlay-text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-            <h3 class="portfolio-pic-title">Growing Business</h3>
-            <p class="portfolio-pic-text">Apps</p>
+            <h3 class="portfolio__pic-title">Growing Business</h3>
+            <p class="portfolio__pic-text">Apps</p>
             </li>
 
           </ul>  
         </div>
         </section>
     </main>
+<footer>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__info-area">
+                    <a href="/index.html" class="footer__logo">WebStudio</a>
+                    <address class="footer__address-area">
+                        <ul class="footer__info-list">
 
-    <footer>
-        <section class="footer">
-            <div class="container">
-                <div class="footer-container">
-                    <div class="footer-info">
-                        <a href="/index.html" class="logo">WebStudio</a>
-                        <address class="address-setter">
-                            <ul class="contact-info">
-    
-                                <li class="footer-contact-info"><a class="contact-item-address"
-                                        href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York, NY
-                                        10065, United States</a></li>
-                                <li class="footer-contact-info"><a class="contact-item"
-                                        href="mailto:example@gmail.ru">info@example.com</a></li>
-                                <li class="footer-contact-info"><a class="contact-item" href="tel:+12127724150">+1
-                                        212-772-4150</a></li>
-    
-                            </ul>
-                        </address>
-                    </div>
-    
-                    <div class="footer-social">
-                        <h3 class="footer-social-title">FIND US ON</h3>
-    
-                        <ul class="footer-team-social-list">
-                            <li class="team-social-item">
-                                <a href="" class="footer-team-social-link">
-                                    <svg width="20" height="20" class="team-social-icon">
-                                        <use href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-    
-                            <li class="team-social-item">
-                                <a href="" class="footer-team-social-link">
-                                    <svg width="20" height="20" class="team-social-icon">
-                                        <use href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </li>
-    
-                            <li class="team-social-item">
-                                <a href="" class="footer-team-social-link">
-                                    <svg width="20" height="20" class="team-social-icon">
-                                        <use href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-    
-                            <li class="team-social-item">
-                                <a href="" class="footer-team-social-link">
-                                    <svg width="20" height="20" class="team-social-icon">
-                                        <use href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </a>
-                            </li>
-    
+                            <li class="footer__info-item"><a class="footer__address-link"
+                                    href="https://goo.gl/maps/mEacjCX5D3Y1zxKS9">695 Park Ave, New York, NY
+                                    10065, <br />United States</a></li>
+                            <li class="footer__info-item"><a class="footer__contact-link"
+                                    href="mailto:example@gmail.ru">info@example.com</a></li>
+                            <li class="footer__info-item"><a class="footer__contact-link" href="tel:+12127724150">+1
+                                    212-772-4150</a></li>
+
                         </ul>
-                    </div>
-    
+                    </address>
                 </div>
-    
-    
-        </section>
-    </footer>
+
+                <div class="footer-socials">
+                    <h3 class="footer-socials__title">FIND US ON</h3>
+
+                    <ul class="footer-socials__list">
+                        <li class="footer-socials__item">
+                            <a href="" class="footer-socials__link">
+                                <svg width="20" height="20" class="footer-socials__icon">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="footer-socials__item">
+                            <a href="" class="footer-socials__link">
+                                <svg width="20" height="20" class="footer-socials__icon">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="footer-socials__item">
+                            <a href="" class="footer-socials__link">
+                                <svg width="20" height="20" class="footer-socials__icon">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="footer-socials__item">
+                            <a href="" class="footer-socials__link">
+                                <svg width="20" height="20" class="footer-socials__icon">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-form">
+
+                    <form class="form">
+                        <label for="E-mail">
+                            <span class="footer-form__title">SUBSCRIBE TO THE NEWSLETTER</span>
+                            <input class="footer-form__input-space" type="email" name="email" id="E-mail"
+                                placeholder="Email">
+                            <button type="submit" class="footer-form__button">
+                                <div class="footer-form__button-details"><span
+                                        class="footer-form__button-text">Subscribe</span>
+                                    <span class="footer-form__button-icon">
+                                        <svg width="24" height="24" class="footer-form__icon">
+                                            <use href="./images/icons.svg#icon-send"></use>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </button>
+                        </label>
+                    </form>
+                </div>
+
+            </div>
+
+
+    </section>
+</footer>
      
 </body>
 
