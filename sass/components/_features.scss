@@ -1,4 +1,4 @@
-@use '../utils/variables';
+@use '../utils/variables' as v;
 
 
 .features {
@@ -20,7 +20,7 @@
 
 &__title{
     margin-bottom: 9px;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;

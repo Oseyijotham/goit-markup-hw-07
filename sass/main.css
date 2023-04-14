@@ -61,7 +61,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1428571429;
   letter-spacing: 0.02em;
@@ -122,7 +122,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1428571429;
   letter-spacing: 0.02em;
@@ -822,7 +822,7 @@ body {
   display: block;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;

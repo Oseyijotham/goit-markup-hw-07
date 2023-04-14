@@ -7,9 +7,9 @@
 
 &__title {
     display: block;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -24,7 +24,7 @@
     border-radius: 4px;
     background-color: #2F303A;
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: v.$font-weight-min;
     font-size: 16px;
     line-height: calc(20/16);
     letter-spacing: 0.03em;
@@ -66,7 +66,7 @@
 }
 
 &__button-text {
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.06em;

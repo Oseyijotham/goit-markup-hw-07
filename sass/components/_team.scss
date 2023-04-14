@@ -11,7 +11,7 @@
     padding-bottom: 50px;
     text-align: center;
     font-style: normal;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
@@ -34,7 +34,7 @@
     padding-top: 30px;
     margin-bottom: 10px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: v.$font-weight-mid;
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;

@@ -60,7 +60,7 @@ fill: currentColor;}
     color: #212121;
     text-align: center;
     margin-top: 40px;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 20px;
     line-height: calc(23/20);
     text-align: center;
@@ -83,7 +83,7 @@ fill: currentColor;}
 
 &__personal-details {
 
-    font-weight: 400;
+    font-weight: v.$font-weight-min;
     font-size: 12px;
     line-height: calc(14/12);
     margin-bottom: 4px;
@@ -110,7 +110,7 @@ fill: currentColor;}
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-    font-weight: 400;
+    font-weight: v.$font-weight-min;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.01em;
@@ -143,7 +143,7 @@ fill: currentColor;}
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    font-weight: 400;
+    font-weight: v.$font-weight-min;
     resize: none;
     font-size: 14px;
     line-height: calc(16/14);
@@ -209,7 +209,7 @@ fill: currentColor;}
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 16px;
     line-height: calc(30/16);
     display: flex;

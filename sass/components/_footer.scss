@@ -21,7 +21,7 @@
 &__logo {
     text-decoration: none;
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
@@ -74,10 +74,6 @@
 
 
 
-
-
-
-
 .footer-socials {
     margin-left: 70px;
 
@@ -85,7 +81,7 @@
 
 &__title {
     font-style: normal;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;

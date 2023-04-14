@@ -11,7 +11,7 @@
 
 &__title {
     font-style: normal;
-    font-weight: 700;
+    font-weight: v.$font-weight-max;
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
