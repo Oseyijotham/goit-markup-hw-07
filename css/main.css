@@ -183,8 +183,7 @@ body {
   margin-left: 252px;
   margin-right: 252px;
 }
-
-.button-area {
+.hero__button {
   margin: 0 auto;
   display: block;
   border-radius: 4px;
@@ -203,7 +202,7 @@ body {
   padding: 10px 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-area:hover, .button-area:focus {
+.hero__button:hover, .hero__button:focus {
   color: #212121;
 }
 
